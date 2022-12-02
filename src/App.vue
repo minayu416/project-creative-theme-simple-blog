@@ -49,3 +49,13 @@ header {
   }
 }
 </style>
+
+<script>
+export default {
+  data() {
+    return {
+      lang: "en",
+    };
+  },
+};
+</script>

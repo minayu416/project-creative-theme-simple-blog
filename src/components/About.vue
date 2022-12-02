@@ -25,3 +25,14 @@ import ToolingIcon from './icons/IconTooling.vue'
       </div>
 
   </template>
+
+<script>
+import { useI18n } from 'vue-i18n';
+
+export default {
+    setup() {
+        const { t } = useI18n();
+      // then use it like t('message.greeting')
+  }
+}
+</script>
