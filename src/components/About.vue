@@ -16,7 +16,7 @@
         <a href="minayu.site" class="underline hover:text-white">{{ $t('about.Q2hyper1') }}</a>
         {{ $t('about.Q2content3') }}
         <h3 class="text-white font-medium title-style mt-6 font-fondamento">{{ $t('about.Q3') }}</h3>
-        {{ $t('about.Q3content') }}
+        <!-- {{ $t('about.Q3content') }} -->
       </div>
 
   </template>
