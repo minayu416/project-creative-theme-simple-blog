@@ -1,0 +1,38 @@
+{
+    "en": {
+      "hello": "hello world!",
+      "bye": "Bye",
+      "about": {
+        "Q1": "Theme Info.",
+        "Q1content": "This website is a creative theme developed by Mina. About the intention, I like the design style of the website ",
+        "Q1hyper1": "EXILE Tribe Mobile",
+        "Q1content1": "and would like to refer it for practicing my front-end skills. I change some style in this website, not total same to the reference website. This is also the second creative theme in my portfolio. If you like, please tell me.",
+        "Q2": "About Author",
+        "Q2content": "Mina Yu",
+        "Q2content1": "Hi, this is Mina, an ENTP creative girl. As a Back-end Software engineer, a Polyglot and a Blogger, my hobbits are software development, learning languages and researching fortune-telling, also I'm learning Front-end skills recently. ",
+        "Q2content2": "This is my personal website",
+        "Q2hyper1": "minayu.site",
+        "Q2content3": ", you can refer it to know more about me.",
+        "Q3": "Contact",
+        "Q3content": "If you have any questions or feedback, please send mail: yuukoyu416@gmail.com"
+      }
+    },
+    "zh-TW": {
+      "hello": "こんにちは、世界！",
+      "bye": "こん",
+      "about": {
+        "Q1": "Theme Info.",
+        "Q1content": "本網站是一個用來練習前端技術而開發的創意主題網站。起初是很喜歡",
+        "Q1hyper1": "EXILE Tribe Mobile",
+        "Q1content1": "的設計，所以希望能透過自己的技術將網站刻出做為練習，在開發過程有發展出自己額外的設計，跟原主題不完全相似，如果你喜歡的話，可以跟我說~",
+        "Q2": "About Author",
+        "Q2content": "Mina Yu",
+        "Q2content1": "嗨，我是Mina，一個ENTP的奇女子。我目前是軟體後端工程師+多語學習+部落客 (應該算吧)，興趣目前很喜歡亂創作一些網站，學習不同的外語跟研究命理占卜學。最近在玩轉前端工程。",
+        "Q2content2": "這是我的個人網站",
+        "Q2hyper1": "minayu.site",
+        "Q2content3": "，有空來網站坐坐。",
+        "Q3": "Contact",
+        "Q3content": "如果您有任何疑問或回饋，可以寄信給我: yuukoyu416@gmail.com"
+      }
+    }
+  }
