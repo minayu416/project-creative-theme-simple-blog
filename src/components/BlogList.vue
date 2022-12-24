@@ -1,10 +1,10 @@
 <template>
-    <div class="text-center text-xl text-white mb-4 mt-12 font-fondamento">日日，All One's Power 日誌
+    <div class="text-center text-xl text-white mb-4 mt-12 font-fondamento">力の芸術@Power Cultivation Dairy
     </div>
     
     <div class="grid grid-cols-2 pb-4 mb-8">
-    <div class="py-1 border-b border-solid bg-white opacity-75 text-black text-center">list view</div>
-        <div class="py-1 border border-solid text-center">timeline view</div>
+    <div class="py-1 border-b border-solid bg-white opacity-75 text-black text-center">{{ $t('blog.list') }}</div>
+        <div class="py-1 border border-solid text-center">{{ $t('blog.timeline') }}</div>
     </div>
 
     <div class="grid gap-6 px-4 mb-6">

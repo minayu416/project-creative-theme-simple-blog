@@ -2,6 +2,10 @@
     "en": {
       "hello": "hello world!",
       "bye": "Bye",
+      "blog": {
+        "list": "list view",
+        "timeline": "timeline view"
+      },
       "about": {
         "Q1": "Theme Info.",
         "Q1content": "This website is a creative theme developed by Mina. About the intention, I like the design style of the website ",
@@ -15,24 +19,58 @@
         "Q2content3": ", you can refer it to know more about me.",
         "Q3": "Contact",
         "Q3content": "If you have any questions or feedback, please send mail"
+      },
+      "navbar": {
+        "about": "ABOUT",
+        "home": "HOME",
+        "gallery": "GALLERY"
+      },
+      "title": {
+        "about": "Have Some Questions?",
+        "gallery": "Travel Gallery"
+      },
+      "gallery": {
+        "motto": "Traveling is part of my life, it provides energy to me.",
+        "post1": "HANA Restaurant in Alishan.",
+        "post2": "Alishan.",
+        "post3": "Iceland."
       }
     },
     "zh-TW": {
       "hello": "こんにちは、世界！",
       "bye": "こん",
       "about": {
-        "Q1": "Theme Info.",
+        "Q1": "本主題的資訊",
         "Q1content": "本網站是一個用來練習前端技術而開發的創意主題網站。起初是很喜歡",
         "Q1hyper1": "EXILE Tribe Mobile",
         "Q1content1": "的設計，所以希望能透過自己的技術將網站刻出做為練習，在開發過程有發展出自己額外的設計，跟原主題不完全相似，如果你喜歡的話，可以跟我說~",
-        "Q2": "About Author",
+        "Q2": "關於作者",
         "Q2content": "Mina Yu",
         "Q2content1": "嗨，我是Mina，一個ENTP的奇女子。我目前是軟體後端工程師+多語學習+部落客 (應該算吧)，興趣目前很喜歡亂創作一些網站，學習不同的外語跟研究命理占卜學。最近在玩轉前端工程。",
         "Q2content2": "這是我的個人網站",
         "Q2hyper1": "minayu.site",
         "Q2content3": "，有空來網站坐坐。",
-        "Q3": "Contact",
+        "Q3": "聯絡我",
         "Q3content": "如果您有任何疑問或回饋，可以寄信給我"
+      },
+      "blog": {
+        "list": "列表",
+        "timeline": "時間軸"
+      },
+      "navbar": {
+        "about": "關於",
+        "home": "首頁",
+        "gallery": "旅行相簿"
+      },
+      "title": {
+        "about": "來解答一些問題！",
+        "gallery": "旅行相簿"
+      },
+      "gallery": {
+        "motto": "旅行是我人生的一部分，他帶給我力量。",
+        "post1": "阿里山上漢娜的廚房",
+        "post2": "阿里山奮起湖",
+        "post3": "冰島機場"
       }
     }
   }

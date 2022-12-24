@@ -7,7 +7,7 @@ import message from './locales.json'
 import './assets/main.css'
 
 const i18n = createI18n({
-    locale: 'en',
+    locale: (localStorage.getItem('lang') || 'en'),
     allowComposition: true, // you need to specify that!
     messages: message
   })

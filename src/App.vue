@@ -57,5 +57,6 @@ export default {
       lang: "en",
     };
   },
+
 };
 </script>
