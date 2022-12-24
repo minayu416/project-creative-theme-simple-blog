@@ -27,3 +27,19 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Deploy to Vercel
+
+- Build
+- Git commit
+- Git Pust
+
+```sh
+npm run build
+```
+
+```sh
+git add .
+git commit -m "deploy"
+git push
+```
