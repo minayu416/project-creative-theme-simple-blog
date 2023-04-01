@@ -1,9 +1,21 @@
 <template>
         <!-- Navbar -->
         <div class="flex space-x-4 justify-center uppercase pt-2">
-          <div class="font-fondamento text-gray-200 hover:text-white"><a href="/about">{{ $t('navbar.about') }}</a></div>
-            <div class="font-fondamento text-gray-200 hover:text-white"><a href="/">{{ $t('navbar.home') }}</a></div>
-            <div class="font-fondamento text-gray-200 hover:text-white"><a href="/gallery">{{ $t('navbar.gallery') }}</a></div>
+          <div class="font-fondamento text-gray-200 hover:text-white">
+            <router-link :to="'/project-creative-theme-simple-blog/about/'">
+              {{ $t('navbar.about') }}
+            </router-link>
+          </div>
+            <div class="font-fondamento text-gray-200 hover:text-white">
+              <router-link :to="'/project-creative-theme-simple-blog/'">
+                {{ $t('navbar.home') }}
+            </router-link>
+            </div>
+            <div class="font-fondamento text-gray-200 hover:text-white">
+              <router-link :to="'/project-creative-theme-simple-blog/gallery/'">
+                {{ $t('navbar.gallery') }}
+            </router-link>
+            </div>
             <!-- <div class="font-fondamento text-gray-200 hover:text-white"><a href="/contact">CONTACT</a></div> -->
             <div class="locale-changer">
             <select @change="updateLanguage()" v-model="$i18n.locale" class="bg-transparent font-fondamento uppercase text-gray-200">

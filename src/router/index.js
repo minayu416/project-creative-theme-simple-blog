@@ -9,22 +9,22 @@ import Contact from '@/components/Contact.vue'
 
 const routes = [
     {
-        path: '/',
+        path: '/project-creative-theme-simple-blog/',
         name: 'Home',
         component: BlogList
     },
     {
-        path: '/about',
+        path: '/project-creative-theme-simple-blog/about/',
         name: 'About',
         component: About
     },
     {
-        path: '/post/:id',
+        path: '/project-creative-theme-simple-blog/post/:id',
         name: 'Post',
         component: BlogPost
     },
     {
-        path: '/gallery',
+        path: '/project-creative-theme-simple-blog/gallery/',
         name: 'Gallery',
         component: Gallery
     },

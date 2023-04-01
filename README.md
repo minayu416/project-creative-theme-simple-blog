@@ -28,18 +28,22 @@ npm run dev
 npm run build
 ```
 
-### Deploy to Vercel
+## Before Deploy
 
-- Build
-- Git commit
-- Git Pust
+**The Route decide everything!**
 
-```sh
-npm run build
-```
+If you want to change place to deploy, please notice:
 
-```sh
-git add .
-git commit -m "deploy"
-git push
-```
+- The routes in router/indes.js should change to corresponding url
+- Change routes in components/Sidebar.vue
+- Change routes in components/BlogList.vue
+
+### Deploy to GitHub
+
+> npm run build
+> cd dist
+> git init
+> git add .
+> git commit -m "deploy"
+> git branch -M gh-pages
+> git push -u <repo> gh-pages

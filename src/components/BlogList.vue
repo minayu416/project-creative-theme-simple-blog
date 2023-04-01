@@ -10,7 +10,7 @@
     <div class="grid gap-6 px-4 mb-6">
     <div v-for= "(post, i) in mockPosts" :key="i">
         <div class="pl-2 pr-4 pt-4 pb-2 bg-white rounded-lg opacity-75 hover:opacity-100">
-            <router-link :to='/post/+post.id'>
+            <router-link :to="'/project-creative-theme-simple-blog/post/' + post.id">
                 <p class="text-black font-medium">{{ post.date }}</p>
                 <div class="grid grid-cols-2">
                     <div class="text-black">{{ post.title }}</div>
